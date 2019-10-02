@@ -1,20 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Giphy API</title>
+    <title>Rock out with your...Gif out?</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript"> </script>
+
 </head>
 
-<body>
-    <!-- Header  -->
-    <div class="LargeHeader">
-        <div class="container">
-            <h1>Actions Search</h1>
-        </div>
+<body id="wholeThing">
+
+    <div class="jumbotron" id="header">
+        <img id="nirvanaImage" src="images/Nirvana.jpg">
     </div>
+    <h1>Battle of the Giphy Bands</h1>
+    <h4>Click a Button...See Some Sick Bands...Simple<br>
+        Pause the bands giphy by clicking on the image
+        <br>Search to add more buttons!</h4>
+    </div>
+
+    <form class="form-inline" id="bandSearch">
+        <div class="form-group">
+            <label for="bandInput">Find some bands with search</label>
+            <input type="text" id="bandInput">
+        </div>
+        <!-- Button triggers show to be added -->
+        <input id="addGif" type="submit" value="submit">
+    </form>
+    
+
+    <div class="row">
+        <div class="container" id="buttonArea">
+            
+            </div>
+            <!--end of button group -->
+        </div>
+        <!--end of container -->
+    </div>
+    <!--end of row -->
+
+
+    <div class="row">
+        <div class="container">
+            <span>
+                <div id="gifArea"></div>
+            </span>
+        </div>
+        <!--end of container -->
+    </div> <!-- end of row  -->
+
+    <script type="text/javascript" src="javascript.js"
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 </body>
 
 </html>
