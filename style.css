@@ -1,23 +1,28 @@
 #header {
 	background-color: #1247b1;
-	color: #bace38;
 	text-align: center;
 	padding-top: 15px;
 	padding-bottom: 25px;
-    font-family: "Carrois Gothic SC", sans-serif;
-    
+	font-family: "Carrois Gothic SC", sans-serif;
+
+}
+
+.mainArea {
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+
 }
 
 #nirvanaImage {
 	width: 15%;
 	float: left;
-    margin-left: 20px;
+	margin-left: 20px;
+	size: 250px;
 
 }
 
 
-
-label {
+#label {
 	font-size: 18px;
 }
 
@@ -30,7 +35,7 @@ label {
 
 #bandSearch {
 	margin: 0 auto;
-	text-align: center;
+	text-align: justify;
 	font-family: "Carrois Gothic SC", sans-serif;
 }
 

@@ -12,7 +12,10 @@ $(document).ready(function () {
     "Jimi Hendrix",
     "Excision",
     "Emmure",
-    ""
+    "Tenacious D",
+    "Korn",
+
+
 
   ];
 
@@ -49,7 +52,7 @@ $(document).ready(function () {
 
       var still = response.data[i].images.original_still.url
 
-      var animated = response.data[i].images.downsized_small.url;
+      var animated = response.data[i].images.fixed_height.url;
 
       var newImage = $("<img>").addClass("gif").attr({ "src": still, "data-still": still, "data-state": "still" });
 

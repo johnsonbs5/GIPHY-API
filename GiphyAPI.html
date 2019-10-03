@@ -5,7 +5,6 @@
     <title>Rock out with your...Gif out?</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript"> </script>
 
@@ -15,32 +14,36 @@
 
     <div class="jumbotron" id="header">
         <img id="nirvanaImage" src="images/Nirvana.jpg">
-    </div>
-    <h1>Battle of the Giphy Bands</h1>
-    <h4>Click a Button...See Some Sick Bands...Simple<br>
-        Pause the bands giphy by clicking on the image
+        <h1>Battle of the Giphy Bands</h1>
+        <hr>
+
+        <h2>
+            Click a Button...See Some Sick Bands
+
+            Pause the bands giphy by clicking on the image
+        </h2>
+        <hr>
         <br>Search to add more buttons!</h4>
     </div>
 
     <form class="form-inline" id="bandSearch">
         <div class="form-group">
-            <label for="bandInput">Find some bands with search</label>
+            <label for="bandInput">Search some bands!</label>
             <input type="text" id="bandInput">
+            <input id="addGif" type="submit" value="submit">
+
         </div>
-        <!-- Button triggers show to be added -->
-        <input id="addGif" type="submit" value="submit">
+        <!-- Button triggers band to be added -->
     </form>
-    
+
 
     <div class="row">
         <div class="container" id="buttonArea">
-            
-            </div>
-            <!--end of button group -->
+
         </div>
-        <!--end of container -->
+        <!--end of button group -->
     </div>
-    <!--end of row -->
+    </div>
 
 
     <div class="row">
@@ -49,7 +52,6 @@
                 <div id="gifArea"></div>
             </span>
         </div>
-        <!--end of container -->
     </div> <!-- end of row  -->
 
     <script type="text/javascript" src="javascript.js"
